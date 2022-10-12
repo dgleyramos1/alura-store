@@ -8,7 +8,6 @@
     flex-wrap: wrap;
     grid-area: conteudo;
     padding: 1rem 0;
-    justify-content: space-between;
 }
 
 .populares__card{
@@ -18,9 +17,6 @@
         "card-imagem"
         "card-corpo";
     grid-template-columns: 100%;
-    grid-template-rows: 173px auto;
-    margin-right: 1rem;
-    width: calc(20% - 1rem);
 }
 
 .populares__card:last-child{
